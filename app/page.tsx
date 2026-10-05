@@ -22,7 +22,7 @@ export default function Home() {
             안녕하세요.
           </span>
           <span className="block text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight">
-            <span className="text-[#6B9EC4]">구름이</span>
+            <span className="text-cyan-500">노현희</span>
             <span className="text-zinc-500"> 인사드려요</span>
           </span>
         </h1>
