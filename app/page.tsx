@@ -21,8 +21,8 @@ export default function Home() {
           <span className="block text-5xl sm:text-6xl md:text-7xl font-black tracking-tight text-zinc-500 mb-2 sm:mb-3">
             안녕하세요.
           </span>
-          <span className="block text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight">
-            <span className="text-cyan-500">노현희</span>
+          <span className="block text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight flex items-center justify-center gap-2">
+            <span className="text-cyan-500 bg-yellow-200 px-4 py-2 rounded-xl inline-block">구름이</span>
             <span className="text-zinc-500"> 인사드려요</span>
           </span>
         </h1>
