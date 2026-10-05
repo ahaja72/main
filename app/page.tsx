@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen flex flex-col items-center py-16 sm:py-24 px-8 sm:px-12 md:px-16 bg-[#FEFDE8]">
+    <main className="relative min-h-screen flex flex-col items-center py-24 sm:py-32 md:py-40 px-8 sm:px-12 md:px-16 bg-yellow-100">
       {/* Background ambient glow */}
       <div
         aria-hidden="true"
@@ -22,7 +22,7 @@ export default function Home() {
             안녕하세요.
           </span>
           <span className="block text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight flex items-center justify-center gap-2">
-            <span className="text-cyan-500 bg-yellow-200 px-4 py-2 rounded-xl inline-block">구름이</span>
+            <span className="text-cyan-500">구름이</span>
             <span className="text-zinc-500"> 인사드려요</span>
           </span>
         </h1>
