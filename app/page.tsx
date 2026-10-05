@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen flex flex-col items-center py-24 sm:py-32 md:py-40 px-8 sm:px-12 md:px-16 bg-yellow-100">
+    <main className="relative flex-grow flex flex-col items-center py-24 sm:py-32 md:py-40 px-8 sm:px-12 md:px-16 bg-yellow-100 rounded-3xl shadow-sm overflow-hidden">
       {/* Background ambient glow */}
       <div
         aria-hidden="true"
